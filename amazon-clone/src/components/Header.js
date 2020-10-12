@@ -15,34 +15,34 @@ function Header() {
         />
       </Link>
       <header className="header__search">
-      <input type="text" className="header__searchInput" />
-      <SearchIcon className="header__searchIcon" />
+        <input type="text" className="header__searchInput" />
+        <SearchIcon className="header__searchIcon" />
       </header>
       <div className="header__nav">
-      <Link to="/login" className="header__link">
-        <div className="header__option">
-          <span className="header__optionLineOne">Hello Chelsea,</span>
-          <span className="header__optionLineTwo">Sign In</span>
-        </div>
-      </Link>
-      <Link to="/" className="header__link">
-        <div className="header__option">
-          <span className="header__optionLineOne">Returns</span>
-          <span className="header__optionLineTwo">& Orders</span>
-        </div>
-      </Link>
-      <Link to="/" className="header__link">
-        <div className="header__option">
-          <span className="header__optionLineOne">Your</span>
-          <span className="header__optionLineTwo">Prime</span>
-        </div>
-      </Link>
-      <Link to="/checkout" className="header__link">
-          <div className="header__optionBasket">
-             <ShoppingBasketIcon />
-              <span className="header__optionLineTwo header__basketCount" >0</span>
+        <Link to="/login" className="header__link">
+          <div className="header__option">
+            <span className="header__optionLineOne">Hello Chelsea,</span>
+            <span className="header__optionLineTwo">Sign In</span>
           </div>
-      </Link>
+        </Link>
+        <Link to="/" className="header__link">
+          <div className="header__option">
+            <span className="header__optionLineOne">Returns</span>
+            <span className="header__optionLineTwo">& Orders</span>
+          </div>
+        </Link>
+        <Link to="/" className="header__link">
+          <div className="header__option">
+            <span className="header__optionLineOne">Your</span>
+            <span className="header__optionLineTwo">Prime</span>
+          </div>
+        </Link>
+        <Link to="/checkout" className="header__link">
+          <div className="header__optionBasket">
+            <ShoppingBasketIcon />
+            <span className="header__optionLineTwo header__basketCount">0</span>
+          </div>
+        </Link>
       </div>
     </nav>
   );
