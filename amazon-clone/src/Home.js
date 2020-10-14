@@ -28,18 +28,18 @@ function Home() {
 
             <div className="home__row">
             <Product
+                id="4"
+                title="Ring Video Doorbell with Echo Dot"
+                price={79.99}
+                rating={4}
+                image="https://m.media-amazon.com/images/I/31hOQ4-ay6L._AC_SY200_.jpg"
+            />
+            <Product
                 id="3"
                 title="Apple Airpods with Charging Case (Wired)"
                 price={114.99}
                 rating={5}
                 image="https://m.media-amazon.com/images/I/31jBnwWr91L._AC_SY200_.jpg"
-            />
-            <Product
-                id="4"
-                title="Noise Cancelling Gaming Headset with Microphone"
-                price={26.99}
-                rating={4}
-                image="https://m.media-amazon.com/images/I/71ZrQy-n8wL._AC_UY218_.jpg"
             />
             <Product
                 id="5"
@@ -52,10 +52,10 @@ function Home() {
             <div className="home__row">
             <Product
                 id="6"
-                title="Insignia 32-inch Smart HD TV - Fire Edition"
-                price={109.99}
+                title="Razor PC Gaming Gear Bundle"
+                price={199.99}
                 rating={5}
-                image="https://m.media-amazon.com/images/G/01/kindle/journeys/MmUwZWEyOWUt/MmUwZWEyOWUt-MGY0NGM1NWEt-w210._AC_SY200_.jpg"
+                image="https://m.media-amazon.com/images/G/01/US-hq/2020/img/PC_Hardware/XCM_CUTTLE_1273189_1401273_US_3419319_500x500_en_US._AC_SY200_.jpg"
             />
             </div>
             {/* product */}

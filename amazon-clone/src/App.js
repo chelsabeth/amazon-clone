@@ -3,8 +3,8 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // components
-import Header from "./components/Header";
-import Home from "./components/Home";
+import Header from "./Header";
+import Home from "./Home";
 
 function App() {
   return (
