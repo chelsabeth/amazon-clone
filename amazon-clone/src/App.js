@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
 
-
 // components
 import Header from "./Header";
 import Home from "./Home";
@@ -23,24 +22,22 @@ function App() {
         // the user is logged in
         dispatch({
           type: "SET_USER",
-          user: authUser
-        })
+          user: authUser,
+        });
       } else {
         // the user is logged out
         dispatch({
           type: "SET_USER",
-          user: null
-        })
+          user: null,
+        });
       }
     });
 
     return () => {
       // any cleanup functions go here
       unsubscribe();
-    }
-  }, [])
-
-  console.log("USER IS...", user);
+    };
+  }, []);
 
   return (
     <Router>
