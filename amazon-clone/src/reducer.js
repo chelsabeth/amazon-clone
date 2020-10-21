@@ -13,7 +13,7 @@ function reducer(state, action) {
           basket: [...state.basket, action.item]
         };
     case "REMOVE_FROM_BASKET":
-      // login for removing item from basket
+      // logic for removing item from basket
       return { state };
     default:
       return state;
